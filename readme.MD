@@ -50,5 +50,18 @@ dns:
       - 172.28.0.40
 ```
 Nuestro container de Ubuntu tendra la ip **`172.28.0.70`** y donde estará el DNS será en **`172.28.0.40`**, es decir en nuestro servidor DNS por lo que el que resolverá las Ips será nuestro DNS y no nuestro localhost.
+###
+## Pruebas
+
+Para hacer pruebas tendremos que utilizar el *dig* y el *ping* por lo que en los dos containers deberemos instalar lo siguiente:
+
+**Attach shell**
+
+`$ docker exect -it nombre_del_contenedor bash`
+
+`$ apt update`
+
+`$ apt install -y dnsutils`
+
 
 
