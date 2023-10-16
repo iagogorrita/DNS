@@ -1,0 +1,7 @@
+zone "web1asir.int" {
+	type master;
+	file "/var/lib/bind/db.web1asir.int";
+	allow-query {
+		any;
+		};
+	};
