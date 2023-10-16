@@ -28,6 +28,8 @@ networks:
         - subnet: 172.28.0.0/24
           gateway: 172.28.0.1
 ```
+La subred que tendra esta red será **172.28.0.0/24** y el gateway será **172.28.0.1**
+
 En la *configuracion de red del DNS* tendremos que poner lo siguiente:
 ```
 networks:
