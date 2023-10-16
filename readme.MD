@@ -57,11 +57,13 @@ Para hacer pruebas tendremos que utilizar el *dig* y el *ping* por lo que en los
 
 **Attach shell**
 
-`$ docker exect -it nombre_del_contenedor bash`
+`$ docker exec -it asir_cliente bash`
 
 `$ apt update`
 
 `$ apt install -y dnsutils`
+
+`$ apt install -y iputils-ping`
 
 
 
